@@ -1,0 +1,171 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Sans Condensed", sans-serif;
+    background-color: #BAE6FD;
+}
+
+.container {
+    width: 85%;
+    max-width: 500px;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    padding: 5px 8px;
+    margin: 1em 0;
+    background-color: #FFFFFF;
+    border: 1px solid #BAE6FD;
+    border-radius: 5px;
+    font-size: 0.75em;
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-weight: 400;
+    transition: text-shadow 0.2s;
+}
+
+.btn:hover,
+.btn:focus {
+    border: 1px solid #0EA5E9;
+    background-color: #F3F4F6;
+    text-shadow: 0.3px 0.3px 0.5px #111827;
+}
+
+.error {
+    color: red;
+    margin: 0;
+}
+
+/* MAIN SECTION */
+.main {
+    background-color: #0369A1;
+    height: 40vh;
+    max-height: 200px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 24px;
+    text-shadow: 1px 1px 2px #111827;
+}
+
+#conv-input {
+    height: 3em;
+    width: 4.5em;
+    overflow: hidden;
+    font-size: 1.1em;
+    text-align: center;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    background-color: #0369A1;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* RESULTS SECTION */
+.second {
+    background-color: #BAE6FD;
+    height: 60vh;
+    max-height: 500px;
+    color: #0C4A6E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.results-box {
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 1em;
+    color: #0C4A6E;
+    font-weight: bold;
+    border-radius: 1em;
+}
+
+.desc-par {
+    padding: 0;
+    margin: 0.7em;
+    margin-top: 0;
+}
+
+.calc {
+    font-size: 0.7em;
+    font-weight: 400;
+}
+
+@media (min-width: 465px) {
+    /* MAIN SECTION*/
+    .title {
+    font-size: 1.85em;
+    }
+
+    .main {
+        max-height: 250px;
+    }
+
+    #conv-input {
+        height: 3.5em;
+        width: 5.5em;
+    }
+
+    .btn {
+        padding: 0.5em 1.2em;
+    }
+
+    /* RESULTS SECTION*/
+    .second {
+        max-height: 550px;
+    }
+
+    .results-box {
+        padding: 1.8em;
+    }
+
+    .desc-par {
+        font-size: 1.3em;
+    }
+
+    .calc {
+        font-size: 0.85em;
+    }
+}
+
+@media (min-width: 950px) {
+    .main {
+        max-height: 300px;
+    }
+
+    .title {
+        font-size: 2.3em;
+    }
+
+    #conv-input {
+        height: 4em;
+        width: 6em;
+    }
+}
