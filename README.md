@@ -1,6 +1,6 @@
-# Unit Converter (Personal Project)
+# Unit Converter (SCRIMBA Project)
 
-A simple, responsive web app to convert between metric and imperial units. Built as a personal learning project to practice DOM manipulation, Flexbox layout, and JavaScript logic.
+A simple, responsive web app to convert between metric and imperial units. Built as part of a SCRIMBA course project and a personal learning project to practice DOM manipulation, Flexbox layout, and JavaScript logic.
 
 ## Features
 - Converts between:
@@ -9,7 +9,6 @@ A simple, responsive web app to convert between metric and imperial units. Built
   - Kilograms ↔ Pounds
 - Displays both conversion directions simultaneously
 - Clean, modern UI with responsive design
-- Dark/Light mode toggle (optional enhancement)
 - No dependencies or build tools required
 
 ## Usage
