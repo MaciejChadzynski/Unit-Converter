@@ -36,9 +36,12 @@ A simple, responsive web app to convert between metric and imperial units. Built
 - To add more units or categories, extend the HTML and JS logic accordingly.
 
 ## Screenshot
-![Screenshot](unit-converter1.jpg)
-![Screenshot](unit-converter2.jpg)
-![Screenshot](unit-converter3.jpg)
+<p float="left">
+  <img src="unit-converter1.jpg" width="300" />
+  <img src="unit-converter2.jpg" width="300" />
+  <img src="unit-converter3.jpg" width="300" />
+</p>
+
 
 ## License
 MIT
